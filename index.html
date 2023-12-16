@@ -14,7 +14,7 @@
 <div class="container">
 			<div class="row">
 				<div class="col-sm-9">
-					<form role="form" onsubmit="window.Telegram.WebApp.sendData(event)">
+					<form role="form" onsubmit="window.Telegram.WebApp.sendData($(event.target).serialize())">
 					
 					
 					 <div class="form-group">
